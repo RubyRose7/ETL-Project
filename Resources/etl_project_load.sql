@@ -1,10 +1,8 @@
-CREATE TABLE Movies (
-	"budget" int NOT NULL, 
-	"id" int NOT NULL,
-	"release_date" date NOT NULL,
-	"revenue" float NOT NULL,
-	"status" varchar (10) NOT NULL,
-	"title" varchar (100) NOT NULL,
+CREATE TABLE movies (
+	"id" BIGINT,
+	"release_date" date,
+	"status" varchar (20),
+	"title" TEXT,
 	"year" int,
 	"netflix" int,
 	"hulu" int,
