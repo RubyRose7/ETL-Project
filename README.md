@@ -39,4 +39,5 @@ We connected the tables based on the movie titles.
   * Movies on Netflix, Prime Video, Hulu and Disney+: https://www.kaggle.com/ruchi798/movies-on-netflix-prime-video-hulu-and-disney
 
 
-
+## Additional notes:
+After seeing the Bechdel test data from the API we decided to play with it, and ran an additional API to get additional information.  This was not used in our file but we included it in the event we wanted to use it in the future.  (Beware that it took 3 hours to run the API.)  
